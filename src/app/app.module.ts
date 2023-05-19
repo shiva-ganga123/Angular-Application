@@ -12,7 +12,8 @@ import { HomeComponent } from './home/home.component';
 import { StarRatingModule } from 'angular-star-rating';
 import { SearchComponent } from './search/search.component';
 import { TagsComponent } from './tags/tags.component';
-import { CartPAgeComponent } from './cart-page/cart-page.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
+import { FoodpageComponent } from './foodpage/foodpage.component';
 
 
 
@@ -25,8 +26,8 @@ import { CartPAgeComponent } from './cart-page/cart-page.component';
     HomeComponent,
     SearchComponent,
     TagsComponent,
-    CartPAgeComponent,
-    
+    CartPageComponent,
+    FoodpageComponent,
   ],
   imports: [
     BrowserModule,
