@@ -25,7 +25,7 @@
         <div>
             {{cartItem.price| currency}}
         </div>
-        <button>Remove from cart</button>
+        <button class="remove-button" (click)="removeFromCart(cartItem)">Remove from cart</button>
 
     </li>
 </ul>
