@@ -27,17 +27,17 @@
                 {{cartItem.price| currency}}
             </div>
             <div>
-                <button class="remove-button" (click)="removeFromCart(cartItem)">Remove from cart</button>
-            </div>
-            <div class="checkout">
-                <div class="food-count">
-                    {{cart.items.length}}
-                </div>
-                <div class="total-price">
-                    {{cart.totalPrice | currency}}
-                </div>
+                <button class="remove-button" (click)="removeFromCart(cartItem)">Remove </button>
             </div>
         </li>
     </ul>
+    <div class="checkout">
+        <div class="food-count">
+            {{cart.items.length}}
+        </div>
+        <div class="total-price">
+            {{cart.totalPrice | currency}}
+        </div>
+    </div>
 
 </div>
