@@ -53,7 +53,7 @@ ul li select{
 }
 
 ul .remove-button{
-    border-radius: 1rem;
+    border-radius: 10em;
     border: none;
     outline: none;
     padding: .5rem;
