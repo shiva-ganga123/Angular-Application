@@ -96,3 +96,7 @@ ul .remove-button:hover{
 .checkout .food-count::before{
     content: "Total Product: ";
 }
+
+.checkout .total-price::before{
+    content: "Total Price: ";
+}
