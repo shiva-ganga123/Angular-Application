@@ -15,6 +15,7 @@ import { TagsComponent } from './tags/tags.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { FoodpageComponent } from './foodpage/foodpage.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 
 
@@ -23,19 +24,22 @@ import { NotFoundComponent } from './not-found/not-found.component';
   declarations: [
     AppComponent,
     CourseComponent,
-    HeaderComponent,
     HomeComponent,
+    HeaderComponent,
     SearchComponent,
     TagsComponent,
     CartPageComponent,
     FoodpageComponent,
     NotFoundComponent,
+    CheckoutComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     StarRatingModule.forRoot()
+    
     
   ],
   providers: [],
